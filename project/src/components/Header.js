@@ -20,6 +20,7 @@ export default function Header() {
       </h1>
 
       <div className="header-arrow-container">
+        {/* arrow */}
         <div></div>
       </div>
 
@@ -51,17 +52,27 @@ export default function Header() {
       </GridRow>
 
       <div className="credit-card">
-        <GridRow align="center" className="credit-card-header">
-          <div>
-            <img src="./images/star.svg" alt="Credit card logo" />
-            <img src="./images/star.svg" alt="Credit card logo" />
-          </div>
-          <h1 className="credit-card-logo-text">Cardo</h1>
-          <div>
-            <div className="credit-card-diagram">
+        <GridRow
+          justify="between"
+          align="center"
+          className="credit-card-header"
+        >
+          <GridRow align="center" className="credit-card-logo-container">
+            <div>
+              <img src="./images/star.svg" alt="Credit card logo" />
+              <img src="./images/star.svg" alt="Credit card logo" />
+            </div>
+            <h1 className="credit-card-logo-text">Cardo</h1>
+          </GridRow>
+          <GridRow>
+            <div className="credit-cart-signal-container">
               <div></div>
             </div>
-          </div>
+            <div className="credit-card-diagram">
+              {/* venn diagram */}
+              <div></div>
+            </div>
+          </GridRow>
         </GridRow>
       </div>
     </div>

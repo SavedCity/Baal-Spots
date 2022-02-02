@@ -188,16 +188,16 @@
     padding: 35px;
   }
 
-  .credit-card-header > div {
+  .credit-card-logo-container > div {
     position: relative;
     margin-right: 15px;
   }
 
-  .credit-card-header > div > img {
+  .credit-card-logo-container > div > img {
     width: 13px;
   }
 
-  .credit-card-header > div > img:nth-child(2) {
+  .credit-card-logo-container > div > img:nth-child(2) {
     position: absolute;
     top: 1px;
     right: -6px;
@@ -206,5 +206,75 @@
   .credit-card-logo-text {
     font: 600 1rem cormorant garamond;
     margin: 0 0 3px;
+  }
+
+  .credit-card-diagram {
+    background-color: #1d1d1c;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 12px;
+  }
+
+  .credit-card-diagram::after {
+    content: "";
+    background-color: #1d1d1c;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    position: absolute;
+    border: 1px solid rgb(227, 233, 245);
+    top: -1px;
+    right: -11px;
+    box-sizing: border-box;
+  }
+
+  .credit-card-diagram::before {
+    content: "";
+    background-color: none;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    border: 1px solid rgb(227, 233, 245);
+    z-index: 1;
+  }
+
+  .credit-cart-signal-container div {
+    width: 6px;
+    height: 2px;
+    border: solid 1px #000;
+    border-color: black transparent transparent transparent;
+    border-radius: 50%/96% 96% 0 0;
+    transform: rotate(90deg);
+    position: relative;
+    margin: 5px 5px 0 0;
+  }
+
+  .credit-cart-signal-container div::after {
+    content: "";
+    width: 10px;
+    height: 3px;
+    border: solid 1px #000;
+    border-color: black transparent transparent transparent;
+    border-radius: 50%/98% 98% 0 0;
+    position: absolute;
+    top: -4px;
+    right: -3px;
+  }
+
+  .credit-cart-signal-container div::before {
+    content: "";
+    width: 14px;
+    height: 3.4px;
+    border: solid 1px #000;
+    border-color: black transparent transparent transparent;
+    border-radius: 50%/89% 89% 0 0;
+    position: absolute;
+    top: -7px;
+    right: -5px;
   }
 }
