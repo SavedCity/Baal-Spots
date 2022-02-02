@@ -1,0 +1,210 @@
+@media only screen and (max-width: 600px) {
+  /* ============= NAV BAR =========== */
+  .main-nav {
+    padding: 35px 35px 25px;
+  }
+
+  .nav-logo-container > div {
+    position: relative;
+    margin-right: 17px;
+  }
+
+  .nav-logo-container img {
+    width: 21.27px;
+    padding-top: 7px;
+  }
+
+  .nav-logo-container img:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 10px;
+  }
+
+  .nav-logo-text {
+    font: 600 2rem cormorant garamond;
+    margin: 0;
+  }
+
+  .hamburger-menu div {
+    width: 23px;
+    height: 3px;
+    background-color: #000;
+    margin: 4px 0;
+    border-radius: 10px;
+  }
+
+  /* ============= HEADER =========== */
+  .main-header {
+    padding: 35px;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      #f8eae8 0%,
+      rgba(248, 234, 232, 0) 100%
+    );
+  }
+
+  .header-star-container {
+    position: relative;
+  }
+
+  .header-star-container > img:nth-child(2) {
+    position: absolute;
+    width: 23px;
+    bottom: -20px;
+    left: -20px;
+  }
+
+  .header-title {
+    font: 300 65px cormorant garamond;
+    line-height: 70.86px;
+    margin-top: 30px;
+  }
+
+  .header-arrow-container {
+    position: relative;
+    width: 25vw;
+    margin-bottom: 35px;
+  }
+
+  .header-arrow-container > div {
+    background-color: #1d1d1d;
+    height: 3px;
+    border-radius: 30px;
+  }
+
+  .header-arrow-container > div::after {
+    content: "";
+    border-top: solid;
+    border-right: solid;
+    border-width: 3.5px;
+    width: 15px;
+    height: 15px;
+    border-top-right-radius: 3px;
+    position: absolute;
+    top: -8px;
+    right: 1px;
+    transform: rotate(45deg);
+  }
+
+  .header-about {
+    font: 400 1rem plus jakarta sans;
+    line-height: 22.4px;
+    padding: 10px;
+  }
+
+  .header-card-btn-container {
+    padding: 10px;
+    white-space: nowrap;
+  }
+
+  .header-card-btn-container button:nth-child(1) {
+    width: 139px;
+    height: 33px;
+    padding: 0 13px;
+    border-radius: 100px;
+    text-align: center;
+    font: 400 15px helvetica neue;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    background-color: #11253e;
+    border: none;
+    margin: 0px 16px 0 0;
+  }
+
+  .header-card-btn-container button:nth-child(2) {
+    font: 500 15px helvetica neue;
+    background: none;
+    border: none;
+    letter-spacing: 0.03em;
+    color: #0a2540;
+    position: relative;
+  }
+
+  .header-card-btn-container button:nth-child(2)::after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 8px;
+    right: -7px;
+    border-top: solid;
+    border-right: solid;
+    border-width: 2px;
+    transform: rotate(45deg);
+  }
+
+  .analytics-container {
+    padding: 0 10px;
+    margin: 30px 0 50px;
+  }
+
+  .analytics-container h5 {
+    font: 400 12px plus jakarta sans;
+    margin: 4px 0;
+  }
+
+  .analytics-container h3 {
+    font: 700 18px plus jakarta sans;
+    margin: 4px 0;
+  }
+
+  .analytics-users {
+    padding: 0 10px 0 0;
+    white-space: nowrap;
+  }
+
+  .analytics-downloads {
+    border-left: 2px solid #dfdfdf;
+    border-right: 2px solid #dfdfdf;
+    padding: 0 25px;
+  }
+  .analytics-reviews {
+    padding: 0 0 0 10px;
+  }
+
+  /* ============= HEADER =========== */
+  .credit-card {
+    background-image: url(/public/images/credit-card-background.png);
+    width: 325px;
+    height: 194px;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    position: relative;
+  }
+
+  .credit-card::before {
+    content: "";
+    background-color: #ebedff;
+    width: 325px;
+    height: 194px;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    transform: rotate(5deg);
+    position: absolute;
+    z-index: -1;
+  }
+
+  .credit-card-header {
+    padding: 35px;
+  }
+
+  .credit-card-header > div {
+    position: relative;
+    margin-right: 15px;
+  }
+
+  .credit-card-header > div > img {
+    width: 13px;
+  }
+
+  .credit-card-header > div > img:nth-child(2) {
+    position: absolute;
+    top: 1px;
+    right: -6px;
+  }
+
+  .credit-card-logo-text {
+    font: 600 1rem cormorant garamond;
+    margin: 0 0 3px;
+  }
+}
