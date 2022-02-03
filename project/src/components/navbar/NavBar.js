@@ -1,18 +1,19 @@
 import React from "react";
-import "../css/Mobile.css";
-import { GridRow } from "emotion-flex-grid";
+import { GridColumn, GridRow } from "emotion-flex-grid";
+import "./NavBarMobile.css";
 
 export default function NavBar() {
   return (
     <GridRow className="main-nav" justify="between" align="center">
       <GridRow className="nav-logo-container" align="center">
-        <div>
+        <GridColumn mr={["m"]}>
           <img src="./images/star.svg" alt="Main Logo" />
           <img src="./images/star.svg" alt="Main Logo" />
-        </div>
+        </GridColumn>
         <h1 className="nav-logo-text">Cardo</h1>
       </GridRow>
       <div className="hamburger-menu">
+        {/* hamburger menu */}
         <div></div>
         <div></div>
         <div></div>

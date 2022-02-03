@@ -1,0 +1,43 @@
+@media only screen and (max-width: 600px) {
+  .cc-features-container {
+    background-color: #1d1d1c;
+    color: #ffffff;
+    padding: 30px 0;
+  }
+
+  .cc-features-container > h1 {
+    font: 200 48px Cormorant Garamond;
+    line-height: 52px;
+    margin: 30px 35px;
+    letter-spacing: 1px;
+  }
+
+  .cc-feature-card {
+    background-color: #181818;
+    padding: 40px 40px 50px;
+    max-width: 334px;
+  }
+
+  .cc-feature-title {
+    margin: 0;
+    font: 200 36px Cormorant Garamond;
+  }
+
+  .cc-feature-description {
+    font: 200 16px Open sans;
+    opacity: 0.6;
+    margin: 18px 0px 25px;
+  }
+  .cc-feature-btn {
+    font: 200 16px Open sans;
+    margin: 18px 0px;
+    padding: 7px 25px;
+    text-decoration: none;
+    font: 400 15px helvetica neue;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 1px;
+    background-color: #a5afd4;
+    border-radius: 100px;
+  }
+}

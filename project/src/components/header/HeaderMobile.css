@@ -1,0 +1,335 @@
+@media only screen and (max-width: 600px) {
+  .main-header {
+    padding: 35px;
+  }
+
+  /* stars on header */
+
+  .header-star-container {
+    position: relative;
+  }
+
+  .header-star-container > img:nth-child(2) {
+    position: absolute;
+    width: 23px;
+    bottom: -20px;
+    left: -20px;
+  }
+
+  /* header title */
+
+  .header-title {
+    font: 300 65px cormorant garamond;
+    line-height: 70.86px;
+    margin-top: 30px;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      #f8eae8 0%,
+      rgba(248, 234, 232, 0) 100%
+    );
+  }
+
+  /* header arrow */
+
+  .header-arrow-container {
+    position: relative;
+    width: 25vw;
+    margin-bottom: 35px;
+  }
+
+  .header-arrow-container > div {
+    background-color: #1d1d1c;
+    height: 3px;
+    border-radius: 30px;
+  }
+
+  .header-arrow-container > div::after {
+    content: "";
+    border-top: solid;
+    border-right: solid;
+    border-width: 3.5px;
+    width: 15px;
+    height: 15px;
+    border-top-right-radius: 3px;
+    position: absolute;
+    top: -8px;
+    right: 1px;
+    transform: rotate(45deg);
+  }
+
+  /* about section */
+
+  .header-about {
+    font: 400 1rem plus jakarta sans;
+    line-height: 22.4px;
+    padding: 10px;
+  }
+
+  /* order card buttons */
+
+  .header-card-btn-container {
+    padding: 10px;
+    white-space: nowrap;
+  }
+
+  .header-card-btn-container button:nth-child(1) {
+    width: 139px;
+    height: 33px;
+    padding: 0 13px;
+    border-radius: 100px;
+    text-align: center;
+    font: 400 15px helvetica neue;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    background-color: #11253e;
+    border: none;
+    margin: 0px 16px 0 0;
+  }
+
+  .header-card-btn-container button:nth-child(2) {
+    font: 500 15px helvetica neue;
+    background: none;
+    border: none;
+    letter-spacing: 0.03em;
+    color: #0a2540;
+    position: relative;
+  }
+
+  .header-card-btn-container button:nth-child(2)::after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 8px;
+    right: -7px;
+    border-top: solid;
+    border-right: solid;
+    border-width: 2px;
+    transform: rotate(45deg);
+  }
+
+  /* analytics */
+
+  .analytics-container {
+    padding: 0 10px;
+    margin: 30px 0 50px;
+  }
+
+  .analytics-container h5 {
+    font: 400 12px plus jakarta sans;
+    margin: 4px 0;
+  }
+
+  .analytics-container h3 {
+    font: 700 18px plus jakarta sans;
+    margin: 4px 0;
+  }
+
+  .analytics-users {
+    padding: 0 10px 0 0;
+    white-space: nowrap;
+  }
+
+  .analytics-downloads {
+    border-left: 2px solid #dfdfdf;
+    border-right: 2px solid #dfdfdf;
+    padding: 0 25px;
+  }
+  .analytics-reviews {
+    padding: 0 0 0 10px;
+  }
+
+  /*  CREDIT CARD  */
+  .credit-card {
+    background-image: url(/public/images/credit-card-background.png);
+    width: 325px;
+    height: 194px;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    position: relative;
+    margin-bottom: 30px;
+  }
+
+  .credit-card::before {
+    content: "";
+    background-color: #ebedff;
+    width: 325px;
+    height: 194px;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    transform: rotate(5deg);
+    position: absolute;
+    z-index: -1;
+  }
+
+  .cc-header {
+    padding: 35px 35px 25px;
+  }
+
+  .cc-logo-container > div {
+    position: relative;
+    margin-right: 10px;
+  }
+
+  .cc-logo-container > div > img {
+    width: 13px;
+  }
+
+  .cc-logo-container > div > img:nth-child(2) {
+    position: absolute;
+    top: 1px;
+    right: -6px;
+  }
+
+  .cc-logo-text {
+    font: 600 1rem cormorant garamond;
+    margin: 0 0 3px;
+  }
+
+  /* venn diagram */
+
+  .cc-diagram {
+    background-color: #1d1d1c;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 12px;
+  }
+
+  .cc-diagram::after {
+    content: "";
+    background-color: #1d1d1c;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    position: absolute;
+    border: 1px solid rgb(227, 233, 245);
+    top: -1px;
+    right: -11px;
+    box-sizing: border-box;
+  }
+
+  .cc-diagram::before {
+    content: "";
+    background-color: none;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    border: 1px solid rgb(227, 233, 245);
+    z-index: 1;
+  }
+
+  /* signal icon */
+
+  .cc-signal-container div {
+    width: 6px;
+    height: 2px;
+    border: solid 1px #000;
+    border-color: black transparent transparent transparent;
+    border-radius: 50%/96% 96% 0 0;
+    transform: rotate(90deg);
+    position: relative;
+    margin: 5px 5px 0 0;
+  }
+
+  .cc-signal-container div::after {
+    content: "";
+    width: 10px;
+    height: 3px;
+    border: solid 1px #000;
+    border-color: black transparent transparent transparent;
+    border-radius: 50%/98% 98% 0 0;
+    position: absolute;
+    top: -4px;
+    right: -3px;
+  }
+
+  .cc-signal-container div::before {
+    content: "";
+    width: 14px;
+    height: 3.4px;
+    border: solid 1px #000;
+    border-color: black transparent transparent transparent;
+    border-radius: 50%/89% 89% 0 0;
+    position: absolute;
+    top: -7px;
+    right: -5px;
+  }
+
+  /* credit card chip */
+
+  .cc-chip {
+    background-color: rgb(230, 234, 244);
+    width: 37px;
+    height: 26px;
+    border-radius: 4px;
+    margin: 0 35px;
+    box-shadow: inset 20px -20px 16px -24px #c4c4c4,
+      inset -20px 20px 16px -24px #c4c4c4;
+    overflow: hidden;
+  }
+
+  .cc-chip div:nth-child(1) {
+    width: 12px;
+    height: 20px;
+    border-right: 1px solid rgb(190, 200, 225);
+    border-bottom: 1px solid rgb(190, 200, 225);
+    border-bottom-right-radius: 2px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .cc-chip div:nth-child(1)::before {
+    content: "";
+    width: 12px;
+    height: 6px;
+    border-top: 1px solid rgb(190, 200, 225);
+    border-bottom: 1px solid rgb(190, 200, 225);
+    position: absolute;
+    top: 6px;
+  }
+
+  .cc-chip div:nth-child(2) {
+    float: right;
+    width: 12px;
+    height: 20px;
+    border-top: 1px solid rgb(193, 204, 228);
+    border-left: 1px solid rgb(193, 204, 228);
+    border-top-left-radius: 2px;
+    position: relative;
+    margin-top: 6px;
+  }
+
+  .cc-chip div:nth-child(2)::before {
+    content: "";
+    width: 12px;
+    height: 6px;
+    border-top: 1px solid rgb(193, 204, 228);
+    border-bottom: 1px solid rgb(193, 204, 228);
+    position: absolute;
+    top: 6px;
+  }
+
+  /* Bottom portion of credit card */
+
+  .cc-footer {
+    padding: 0 35px;
+  }
+
+  .cc-amount {
+    margin: 20px 0 0;
+    font: 700 18px plus jakarta sans;
+    letter-spacing: 5px;
+  }
+
+  .cc-number {
+    margin: 12px 0;
+    font: 400 10px plus jakarta sans;
+    color: #474c5f;
+    letter-spacing: 5px;
+  }
+}
