@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 320px) {
   .cc-features-container {
     background-color: #1d1d1c;
     color: #ffffff;
@@ -21,6 +21,7 @@
   .cc-feature-title {
     margin: 0;
     font: 200 36px Cormorant Garamond;
+    color: #e7e7e7;
   }
 
   .cc-feature-description {
@@ -39,5 +40,9 @@
     letter-spacing: 1px;
     background-color: #a5afd4;
     border-radius: 100px;
+  }
+
+  .cc-feature-btn:active {
+    background-color: #7f8cb9;
   }
 }

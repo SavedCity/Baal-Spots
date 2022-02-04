@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { GridColumn, GridRow } from "emotion-flex-grid";
-import "./CcFeaturesMobile.css";
+import "./CCFeaturesMobile.css";
 
 export default function CCFeatures() {
   const [CCData, setCCData] = useState([]);

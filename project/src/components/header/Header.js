@@ -1,8 +1,7 @@
 import React from "react";
 import { GridColumn, GridRow } from "emotion-flex-grid";
-import "@fontsource/plus-jakarta-sans";
-import "@fontsource/plus-jakarta-sans/700.css";
 import "./HeaderMobile.css";
+import "./HeaderDesktop.css";
 
 export default function Header() {
   return (
@@ -53,34 +52,38 @@ export default function Header() {
       </GridRow>
 
       <GridRow justify="center">
-        <div className="credit-card">
-          <GridRow justify="between" align="center" className="cc-header">
-            <GridRow align="center" className="cc-logo-container">
+        <div className="credit-card-gradient">
+          <GridRow
+            justify="between"
+            align="center"
+            className="cc-gradient-header"
+          >
+            <GridRow align="center" className="cc-gradient-logo-container">
               <div>
                 <img src="./images/star.svg" alt="Credit card logo" />
                 <img src="./images/star.svg" alt="Credit card logo" />
               </div>
-              <h1 className="cc-logo-text">Cardo</h1>
+              <h1 className="cc-gradient-logo-text">Cardo</h1>
             </GridRow>
             <GridRow>
-              <GridColumn className="cc-signal-container">
+              <GridColumn className="cc-gradient-signal-container">
                 <div></div>
               </GridColumn>
-              <GridColumn className="cc-diagram">
+              <GridColumn className="cc-gradient-diagram">
                 {/* venn diagram */}
                 <div></div>
               </GridColumn>
             </GridRow>
           </GridRow>
-          <div className="cc-chip">
+          <div className="cc-gradient-chip">
             {/* chip inner design */}
             <div></div>
             <div></div>
           </div>
-          <GridRow justify="between" className="cc-footer">
+          <GridRow justify="between" className="cc-gradient-footer">
             <GridColumn>
-              <h3 className="cc-amount">$12,445.00</h3>
-              <h3 className="cc-number">**5678</h3>
+              <h3 className="cc-gradient-amount">$12,445.00</h3>
+              <h3 className="cc-gradient-number">**5678</h3>
             </GridColumn>
             <img src="./images/shurikens-white.svg" alt="credit card stars" />
           </GridRow>

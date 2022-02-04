@@ -1,0 +1,50 @@
+@media only screen and (min-width: 320px) {
+  #menu-container {
+    background-color: #1d1d1c;
+    width: 100vw;
+    position: fixed;
+    height: 100vh;
+    right: -100%;
+    top: 0;
+    z-index: 3;
+    opacity: 0;
+    visibility: hidden;
+    transition: right 0.1s, opacity 0.3s, visibility 0.3s ease-in-out;
+    margin-top: 99px;
+  }
+
+  #menu-container ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 25px;
+    display: block;
+  }
+
+  #menu-container ul {
+    padding: 0;
+  }
+
+  #menu-container ul li {
+    font: 700 2.3rem open sans;
+    text-align: center;
+    letter-spacing: 2px;
+    list-style: none;
+  }
+
+  #menu-container ul li a:active {
+    background-color: #30302e;
+  }
+
+  #menu-container.show {
+    opacity: 1;
+    visibility: visible;
+    right: 0;
+    transition: right 0.3s, opacity 0.1s, visibility 0.1s ease-in-out;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  #menu-container {
+    display: none;
+  }
+}

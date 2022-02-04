@@ -1,0 +1,154 @@
+@media only screen and (min-width: 992px) {
+  .main-header {
+    padding: 35px 0;
+  }
+
+  /* stars on header */
+
+  .header-star-container {
+    position: relative;
+  }
+
+  .header-star-container > img:nth-child(2) {
+    position: absolute;
+    width: 23px;
+    bottom: -20px;
+    left: -20px;
+  }
+
+  /* header title */
+
+  .header-title {
+    font: 300 65px cormorant garamond;
+    line-height: 70.86px;
+    margin-top: 30px;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      #f8eae8 0%,
+      rgba(248, 234, 232, 0) 100%
+    );
+  }
+
+  /* header arrow */
+
+  .header-arrow-container {
+    position: relative;
+    width: 25vw;
+    margin-bottom: 35px;
+  }
+
+  .header-arrow-container > div {
+    background-color: #1d1d1c;
+    height: 3px;
+    border-radius: 30px;
+  }
+
+  .header-arrow-container > div::after {
+    content: "";
+    border-top: solid;
+    border-right: solid;
+    border-width: 3.5px;
+    width: 15px;
+    height: 15px;
+    border-top-right-radius: 3px;
+    position: absolute;
+    top: -8px;
+    right: 1px;
+    transform: rotate(45deg);
+  }
+
+  /* about section */
+
+  .header-about {
+    font: 400 1rem plus jakarta sans;
+    line-height: 22.4px;
+    padding: 10px;
+  }
+
+  /* order card buttons */
+
+  .header-card-btn-container {
+    padding: 10px;
+    white-space: nowrap;
+  }
+
+  .header-card-btn-container button:nth-child(1) {
+    width: 139px;
+    height: 33px;
+    padding: 0 13px;
+    border-radius: 100px;
+    text-align: center;
+    font: 400 15px helvetica neue;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    background-color: #11253e;
+    border: none;
+    margin: 0px 16px 0 0;
+  }
+
+  .header-card-btn-container button:nth-child(1):active {
+    background-color: #0c376b;
+  }
+
+  .header-card-btn-container button:nth-child(2) {
+    font: 500 15px helvetica neue;
+    background: none;
+    border: none;
+    letter-spacing: 0.03em;
+    color: #0a2540;
+    position: relative;
+  }
+
+  .header-card-btn-container button:nth-child(2):active {
+    text-decoration: underline;
+  }
+
+  .header-card-btn-container button:nth-child(2)::after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 8px;
+    right: -7px;
+    border-top: solid;
+    border-right: solid;
+    border-width: 2px;
+    transform: rotate(45deg);
+  }
+
+  /* analytics */
+
+  .analytics-container {
+    padding: 0 10px;
+    margin: 30px 0 50px;
+  }
+
+  .analytics-container h5 {
+    font: 400 12px plus jakarta sans;
+    margin: 4px 0;
+  }
+
+  .analytics-container h3 {
+    font: 700 18px plus jakarta sans;
+    margin: 4px 0;
+  }
+
+  .analytics-users {
+    padding: 0 10px 0 0;
+    white-space: nowrap;
+  }
+
+  .analytics-downloads {
+    border-left: 2px solid #dfdfdf;
+    border-right: 2px solid #dfdfdf;
+    padding: 0 25px;
+  }
+  .analytics-reviews {
+    padding: 0 0 0 10px;
+  }
+
+  /*  CREDIT CARD  */
+  .credit-card-gradient {
+    display: none;
+  }
+}

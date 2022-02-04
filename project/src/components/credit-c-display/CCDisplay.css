@@ -1,0 +1,202 @@
+@media only screen and (min-width: 992px) {
+  .cc-display-container {
+    display: block;
+    background-image: url(/public/images/hand-content-background.svg);
+    /* background-repeat: no-repeat; */
+    width: 45%;
+    position: relative;
+  }
+
+  .cc-display-container img {
+    width: 300px;
+    position: absolute;
+    right: 5em;
+    bottom: 0;
+  }
+
+  .credit-card-white {
+    background-color: #ffffff;
+    width: 325px;
+    height: 194px;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    position: relative;
+    margin-bottom: 30px;
+  }
+
+  .cc-white-header {
+    padding: 35px 35px 25px;
+  }
+
+  .cc-white-logo-container > div {
+    position: relative;
+    margin-right: 10px;
+  }
+
+  .cc-white-logo-container > div > img {
+    width: 13px;
+  }
+
+  .cc-white-logo-container > div > img:nth-child(2) {
+    position: absolute;
+    top: 1px;
+    right: -6px;
+  }
+
+  .cc-white-logo-text {
+    font: 600 1rem cormorant garamond;
+    margin: 0 0 3px;
+  }
+
+  /* venn diagram */
+
+  .cc-white-diagram {
+    background-color: #1d1d1c;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 12px;
+  }
+
+  .cc-white-diagram::after {
+    content: "";
+    background-color: #1d1d1c;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    position: absolute;
+    border: 1px solid rgb(227, 233, 245);
+    top: -1px;
+    right: -11px;
+    box-sizing: border-box;
+  }
+
+  .cc-white-diagram::before {
+    content: "";
+    background-color: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    border: 1px solid rgb(227, 233, 245);
+    z-index: 1;
+  }
+
+  /* signal icon */
+
+  .cc-white-signal-container div {
+    width: 6px;
+    height: 2px;
+    border: solid 1px #000;
+    border-color: black transparent transparent transparent;
+    border-radius: 50%/96% 96% 0 0;
+    transform: rotate(90deg);
+    position: relative;
+    margin: 5px 5px 0 0;
+  }
+
+  .cc-white-signal-container div::after {
+    content: "";
+    width: 10px;
+    height: 3px;
+    border: solid 1px #000;
+    border-color: black transparent transparent transparent;
+    border-radius: 50%/98% 98% 0 0;
+    position: absolute;
+    top: -4px;
+    right: -3px;
+  }
+
+  .cc-white-signal-container div::before {
+    content: "";
+    width: 14px;
+    height: 3.4px;
+    border: solid 1px #000;
+    border-color: black transparent transparent transparent;
+    border-radius: 50%/89% 89% 0 0;
+    position: absolute;
+    top: -7px;
+    right: -5px;
+  }
+
+  /* credit card chip */
+
+  .cc-white-chip {
+    background-color: rgb(230, 234, 244);
+    width: 37px;
+    height: 26px;
+    border-radius: 4px;
+    margin: 0 35px;
+    box-shadow: inset 20px -20px 16px -24px #c4c4c4,
+      inset -20px 20px 16px -24px #c4c4c4;
+    overflow: hidden;
+  }
+
+  .cc-white-chip div:nth-child(1) {
+    width: 12px;
+    height: 20px;
+    border-right: 1px solid rgb(190, 200, 225);
+    border-bottom: 1px solid rgb(190, 200, 225);
+    border-bottom-right-radius: 2px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .cc-white-chip div:nth-child(1)::before {
+    content: "";
+    width: 12px;
+    height: 6px;
+    border-top: 1px solid rgb(190, 200, 225);
+    border-bottom: 1px solid rgb(190, 200, 225);
+    position: absolute;
+    top: 6px;
+  }
+
+  .cc-white-chip div:nth-child(2) {
+    float: right;
+    width: 12px;
+    height: 20px;
+    border-top: 1px solid rgb(193, 204, 228);
+    border-left: 1px solid rgb(193, 204, 228);
+    border-top-left-radius: 2px;
+    position: relative;
+    margin-top: 6px;
+  }
+
+  .cc-white-chip div:nth-child(2)::before {
+    content: "";
+    width: 12px;
+    height: 6px;
+    border-top: 1px solid rgb(193, 204, 228);
+    border-bottom: 1px solid rgb(193, 204, 228);
+    position: absolute;
+    top: 6px;
+  }
+
+  /* Bottom portion of credit card */
+
+  .cc-white-footer {
+    padding: 0 35px;
+  }
+
+  .cc-white-name {
+    margin: 20px 0 0;
+    font: 400 16px plus jakarta sans;
+    letter-spacing: 5px;
+    color: #474c5f;
+  }
+
+  .cc-white-number {
+    margin: 12px 0;
+    font: 400 10px plus jakarta sans;
+    color: #474c5f;
+    letter-spacing: 5px;
+  }
+
+  .cc-white-footer img {
+    width: 5%;
+  }
+}

@@ -1,0 +1,51 @@
+@media only screen and (min-width: 992px) {
+  .main-nav {
+    padding: 35px 0 25px;
+    position: relative;
+    z-index: 4;
+    background-color: #ffffff;
+  }
+
+  .nav-logo-container > div {
+    position: relative;
+  }
+
+  .nav-logo-container img {
+    width: 21.27px;
+    padding-top: 7px;
+  }
+
+  .nav-logo-container img:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 10px;
+  }
+
+  .nav-logo-text {
+    font: 600 2rem cormorant garamond;
+    margin: 0;
+  }
+
+  /* hamburger menu */
+
+  #hamburger-menu {
+    display: none;
+  }
+
+  /* header links */
+
+  .header-link-container {
+    white-space: nowrap;
+  }
+
+  .header-link-container ul li {
+    display: inline-block;
+    margin: 0 2vw;
+  }
+
+  .header-link-container ul li a {
+    text-decoration: none;
+    color: #1d1d1c;
+    font: 400 15px plus jakarta sans;
+  }
+}

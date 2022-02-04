@@ -1,8 +1,90 @@
 html {
   color: #1d1d1c;
-  /* box-sizing: border-box; */
 }
 
 body {
   margin: 0;
+}
+
+/* error and loading */
+
+.data-error {
+  font: 200 15px helvetica neue;
+}
+.data-error ~ button {
+  font: 400 15px helvetica neue;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 100px;
+  padding: 5px 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+.loading-container {
+  box-sizing: border-box;
+  background-color: #181818;
+  padding: 36px;
+  width: 334px;
+  height: 238px;
+}
+
+.loading-container > div {
+  width: 150px;
+  height: 25px;
+  background-color: #474c5f;
+}
+
+.loading-container div:nth-child(2) {
+  margin-top: 40px !important;
+}
+
+.loading-container div:nth-child(2),
+.loading-container div:nth-child(3),
+.loading-container div:nth-child(4) {
+  width: 250px;
+  height: 10px;
+  background-color: #474c5f;
+  margin-top: 10px;
+  transition: 0.3s;
+  animation: 2s infinite slide;
+}
+
+.loading-container div:nth-child(3) {
+  animation: 3s infinite slide;
+}
+
+.loading-container div:nth-child(5) {
+  width: 90px;
+  height: 25px;
+  background-color: #474c5f;
+  margin-top: 40px;
+  border-radius: 100px;
+}
+
+@keyframes slide {
+  0% {
+    width: 250px;
+  }
+
+  50% {
+    width: 220px;
+  }
+
+  100% {
+    width: 250px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .main-header-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .main-left-content-container {
+    padding: 0 2vw 0 7vw;
+    width: 55%;
+  }
 }
