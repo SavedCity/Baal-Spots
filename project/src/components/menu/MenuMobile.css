@@ -31,7 +31,12 @@
     list-style: none;
   }
 
-  #menu-container ul li a:active {
+  #menu-container ul li a {
+    transition: 0.2s;
+  }
+
+  #menu-container ul li a:active,
+  #menu-container ul li a:hover {
     background-color: #30302e;
   }
 

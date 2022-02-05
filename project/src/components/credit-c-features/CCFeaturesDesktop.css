@@ -1,22 +1,26 @@
-@media only screen and (max-width: 1099px) {
+@media only screen and (min-width: 1100px) {
   .cc-features-container {
     background-color: #1d1d1c;
     color: #ffffff;
-    padding: 30px 0;
-    align-items: center;
+    padding: 5rem 7rem;
   }
 
   .cc-features-container > h1 {
     font: 200 48px Cormorant Garamond;
     line-height: 52px;
-    margin: 30px 35px;
+    margin: 20px;
     letter-spacing: 1px;
+  }
+
+  .cc-feature-content-container {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .cc-feature-card {
     background-color: #181818;
     padding: 40px 40px 50px;
-    max-width: 334px;
+    width: 280px;
   }
 
   .cc-feature-title {

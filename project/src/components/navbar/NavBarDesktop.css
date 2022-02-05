@@ -47,5 +47,13 @@
     color: #1d1d1c;
     font: 400 15px plus jakarta sans;
     margin: 0 1.5vw;
+    background: linear-gradient(#1d1d1c99, #1d1d1c99) no-repeat 0% 100%;
+    background-size: 0% 0.15em;
+    transition: 0.3s;
+    padding-bottom: 2px;
+  }
+
+  .header-link-container ul li a:hover {
+    background-size: 100% 0.15em;
   }
 }

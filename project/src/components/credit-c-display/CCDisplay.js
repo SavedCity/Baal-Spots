@@ -10,7 +10,9 @@ export default function CCDisplay() {
       direction="column"
       className="main-right-content-container"
     >
-      <img src="./images/hand.png" alt="hand" />
+      <img className="cc-design-hand" src="./images/hand.png" alt="hand" />
+      <img src="./images/wave-lines.svg" alt="wavy lines design" />
+
       <div className="cc-display-star-container">
         <img src="./images/stars/single-black-star.svg" alt="Black star" />
         <img src="./images/stars/single-black-star.svg" alt="Black star" />

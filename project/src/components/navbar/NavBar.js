@@ -17,6 +17,7 @@ export default function NavBar() {
       menu.classList.add("show");
       hamburger.classList.add("active");
       body.style.overflow = "hidden";
+      window.scrollTo(0, 0);
     }
   };
 

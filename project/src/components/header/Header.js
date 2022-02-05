@@ -51,7 +51,7 @@ export default function Header() {
         </div>
       </GridRow>
 
-      <GridRow justify="center">
+      <GridRow>
         <div className="credit-card-gradient">
           <GridRow
             justify="between"
