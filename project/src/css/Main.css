@@ -76,7 +76,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1100px) {
   .main-header-container {
     display: flex;
     justify-content: flex-end;
@@ -85,6 +85,10 @@ body {
 
   .main-left-content-container {
     padding: 0 2vw 0 7vw;
-    width: 55%;
+    width: 50%;
+  }
+
+  #menu-container {
+    display: none;
   }
 }

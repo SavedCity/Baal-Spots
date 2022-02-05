@@ -1,6 +1,6 @@
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 1099px) {
   .main-header {
-    padding: 35px !important;
+    padding: 35px;
   }
 
   /* stars on header */
@@ -33,7 +33,7 @@
 
   .header-arrow-container {
     position: relative;
-    width: 25vw;
+    width: 90px;
     margin-bottom: 35px;
   }
 
@@ -83,7 +83,7 @@
     color: #ffffff;
     background-color: #11253e;
     border: none;
-    margin: 0px 16px 0 0;
+    margin: 0px 12px 0 0;
   }
 
   .header-card-btn-container button:nth-child(1):active {
@@ -119,8 +119,9 @@
   /* analytics */
 
   .analytics-container {
-    padding: 0 10px;
     margin: 30px 0 50px;
+    display: flex;
+    justify-content: center;
   }
 
   .analytics-container h5 {
@@ -141,7 +142,8 @@
   .analytics-downloads {
     border-left: 2px solid #dfdfdf;
     border-right: 2px solid #dfdfdf;
-    padding: 0 25px;
+    padding: 0 2rem;
+    margin: 0 1.2rem;
   }
   .analytics-reviews {
     padding: 0 0 0 10px;
@@ -151,6 +153,7 @@
   .credit-card-gradient {
     background-image: url(/public/images/credit-card-background.png);
     width: 325px;
+    min-width: 325px;
     height: 194px;
     border-top-left-radius: 35px;
     border-bottom-right-radius: 35px;
@@ -229,43 +232,6 @@
     right: -1px;
     border: 1px solid rgb(227, 233, 245);
     z-index: 1;
-  }
-
-  /* signal icon */
-
-  .cc-gradient-signal-container div {
-    width: 6px;
-    height: 2px;
-    border: solid 1px #000;
-    border-color: black transparent transparent transparent;
-    border-radius: 50%/96% 96% 0 0;
-    transform: rotate(90deg);
-    position: relative;
-    margin: 5px 5px 0 0;
-  }
-
-  .cc-gradient-signal-container div::after {
-    content: "";
-    width: 10px;
-    height: 3px;
-    border: solid 1px #000;
-    border-color: black transparent transparent transparent;
-    border-radius: 50%/98% 98% 0 0;
-    position: absolute;
-    top: -4px;
-    right: -3px;
-  }
-
-  .cc-gradient-signal-container div::before {
-    content: "";
-    width: 14px;
-    height: 3.4px;
-    border: solid 1px #000;
-    border-color: black transparent transparent transparent;
-    border-radius: 50%/89% 89% 0 0;
-    position: absolute;
-    top: -7px;
-    right: -5px;
   }
 
   /* credit card chip */

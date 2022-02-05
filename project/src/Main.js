@@ -6,6 +6,8 @@ import "./css/Main.css";
 import "./css/Mobile.css";
 import "@fontsource/plus-jakarta-sans";
 import "@fontsource/plus-jakarta-sans/700.css";
+import "@fontsource/plus-jakarta-sans/500.css";
+
 import Menu from "./components/menu/Menu";
 import CCDisplay from "./components/credit-c-display/CCDisplay";
 

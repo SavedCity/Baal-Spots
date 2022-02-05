@@ -24,8 +24,8 @@ export default function NavBar() {
     <GridRow className="main-nav" justify="between" align="center">
       <GridRow className="nav-logo-container" align="center">
         <GridColumn mr={["m"]}>
-          <img src="./images/star.svg" alt="Main Logo" />
-          <img src="./images/star.svg" alt="Main Logo" />
+          <img src="./images/stars/single-black-star.svg" alt="Main Logo" />
+          <img src="./images/stars/single-black-star.svg" alt="Main Logo" />
         </GridColumn>
         <h1 className="nav-logo-text">Cardo</h1>
       </GridRow>
