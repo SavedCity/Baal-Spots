@@ -13,3 +13,5 @@
 - Didn't realize some specific images on figma were available (e.g. credit card chip, union of stars, arrow under header title) so I made those myself from scratch. Updated it when I realized it but not for some since it looked fine.
 
 - Only 1 responsive breakpoint `(1100px)`. Designed at `390px` for mobile then at `1440px`.
+
+### Live site on `Netlify` [here](https://https://baal-cardo.netlify.app/)
