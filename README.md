@@ -1,8 +1,8 @@
 # Andy Checo's Take Home Project
 
-## Thank you Baal & Spots for allowing me to take some time and design this mockup.
+### Thank you _Baal & Spots_ for allowing me to take some time and design this mockup.
 
-### _A few pointers on what I did:_
+#### _A few pointers on what I did:_
 
 - Mobile first approach
 
