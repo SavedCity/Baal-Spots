@@ -14,4 +14,4 @@
 
 - Only 1 responsive breakpoint `(1100px)`. Designed at `390px` for mobile then at `1440px`.
 
-### Live site on `Netlify` [here](https://https://baal-cardo.netlify.app/)
+### Live site on `Netlify` [here](https://baal-cardo.netlify.app/)
