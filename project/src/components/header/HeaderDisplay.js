@@ -1,8 +1,8 @@
 import { GridColumn, GridRow } from "emotion-flex-grid";
 import React from "react";
-import "./CCDisplay.css";
+import "../../css/HeaderDisplay.css";
 
-export default function CCDisplay() {
+export default function HeaderDisplay() {
   return (
     <GridRow
       align="center"

@@ -1,7 +1,7 @@
 import React from "react";
 import { GridColumn, GridRow } from "emotion-flex-grid";
-import "./NavBarMobile.css";
-import "./NavBarDesktop.css";
+import "../../css/NavBarMobile.css";
+import "../../css/NavBarDesktop.css";
 
 export default function NavBar() {
   const toggleMenu = () => {

@@ -1,7 +1,7 @@
 import React from "react";
 import { GridColumn, GridRow } from "emotion-flex-grid";
-import "./HeaderMobile.css";
-import "./HeaderDesktop.css";
+import "../../css/HeaderMobile.css";
+import "../../css/HeaderDesktop.css";
 
 export default function Header() {
   return (
