@@ -2,6 +2,8 @@
 
 ### Thank you _Baal & Spots_ for allowing me to take some time and design this mockup.
 
+#### I installed 1 or 2 things so do `npm install`
+
 #### _A few pointers on what I did:_
 
 - Mobile first approach
