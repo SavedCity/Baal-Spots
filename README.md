@@ -6,7 +6,7 @@
 
 - Mobile first approach
 
-- Made Hamburger menu functional (it was too tempting)
+- Made Hamburger menu functional (it was too tempting). There is aso a little extra (when there's an error in the api or when the data is loading).
 
 - Used `emotion-flex-grid` for element containers. Didn't mess with customizing the values of spacing or breakpoint so I gave some of those containers my own lines of code.
 
